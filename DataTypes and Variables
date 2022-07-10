@@ -1,0 +1,55 @@
+                                Built in Data Types
+                                
+1) Numbers
+  a)int b)double
+2) Strings
+3) Boolean
+4) Lists/Arrays
+5) Maps
+6) Runes - To express unicode characters in a string
+7) Symbols
+
+//All data types in dart are objects and their values by default is null unless we initialise them.
+
+                                  Variable Declaration
+                                  
+  | DataType VariableName Value;|
+  
+  Eg: int age = 10; (OR) 
+  var age = 10; // It is inferred as an integer value automatically
+  
+  String name = "Henry"; (OR) 
+  var name = "Henry";
+  
+  bool itRains = true; (OR)
+  var itRains = true;
+  
+                                  Code-Snippet
+                                 
+  void main()
+{
+  //Numbers: Int
+  int mark=49;
+  var count=23; //It is inferred as integer automatically
+  
+  //Numbers: double
+  double cgpa=9.81;
+  var percentile=97.52; //It is inferred as double automatically
+  double exp = 1.42e5;
+  //Strings
+  String name = "Gayu";
+  var subject = "Biology"; //It is inferred as string automatically
+  
+  //Boolean
+  bool isValid = true;
+  var isFact = false; //It is inferred as boolean automatically
+  
+  print(mark);
+  print(cgpa);
+  print(name);
+  print(isValid);
+  print(count);
+  print(percentile);
+  print(subject);
+  print(isFact);
+}
