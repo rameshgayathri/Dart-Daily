@@ -1,0 +1,22 @@
+                                                              String Interpolation
+
+String interpolation is the process of inserting variable values into placeholders in a string literal.
+To concatenate strings in Dart, we can utilize string interpolation.
+We use the ${} symbol to implement string interpolation in your code.
+
+
+void main()
+{
+  String name = "Gayu";
+  String message = "My name is $name";
+  print(message);
+  
+  //To count the number of characters in a string
+  print("The number of characters in the name $name is "+name.length.toString());
+  
+ int l=10;
+ int b=5;
+  
+ print("The sum of the length and breadth is ${l+b}");
+ print("The area of a rectangle with length $l and breadth $b is ${l*b}");
+}
