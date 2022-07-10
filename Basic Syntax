@@ -1,0 +1,16 @@
+/*This is a 
+ * multiple
+ * lines of
+ * comment*/
+void main()
+{
+  //This is the code for Basic syntax of Dart
+  print("Hello, world!");
+  
+  //Performing Arithmetic operation
+  print(5*2);
+  
+  //Printing boolean value
+  print(true);
+  
+}
